@@ -1,6 +1,6 @@
 {
   "name": "redis-csc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A client-side caching wrapper for ioredis utilizing Redis 6+ CLIENT TRACKING feature.",
   "main": "index.js",
   "types": "index.d.ts",
