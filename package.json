@@ -1,0 +1,42 @@
+{
+  "name": "redis-csc",
+  "version": "1.0.0",
+  "description": "A client-side caching wrapper for ioredis utilizing Redis 6+ CLIENT TRACKING feature.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GIVA-Jewellery/redis-csc.git"
+  },
+  "keywords": [
+    "redis",
+    "ioredis",
+    "cache",
+    "client-side-caching",
+    "tracking",
+    "performance"
+  ],
+  "author": "Naresh Kumar Kachhi<naresh@giva.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GIVA-Jewellery/redis-csc.git"
+  },
+  "homepage": "https://github.com/GIVA-Jewellery/redis-csc.git",
+  "peerDependencies": {
+    "ioredis": ">=5.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "ioredis": "^5.6.1",
+    "jest": "^29.7.0",
+    "sinon": "^20.0.0"
+  },
+  "dependencies": {
+    "ioredis": ">=5.0.0"
+  }
+}

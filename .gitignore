@@ -1,0 +1,58 @@
+node_modules/
+increff
+
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
+
+pids
+logs
+results
+tmp
+
+# Coverage reports
+coverage
+
+# API keys and secrets
+.env
+.env.*
+*.env
+
+# Dependency directory
+node_modules
+bower_components
+.vscode
+
+# Editors
+.idea
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Ignore built ts files
+dist/**/*
+
+#redis db file
+*.rdb
+
+#server id file - created for node identifier
+*.server.id
+
+.google.credentials.json
+
+tmp
+
+__pycache__
+logs/*
+dd_logs/*
+app_logs/*
+
+service-account.json
